@@ -1,6 +1,6 @@
 IRON_HYGER_BOSSES_FIXTURE = {
     "alchemical_hydra": {"rank": 3035, "score": 2198},
-    "araxxor": {"rank": 0, "score": 0},
+    "araxxor": {"rank": -1, "score": -1},
     "artio": {"rank": 2524, "score": 871},
     "barrows_chests": {"rank": 1132, "score": 1761},
     "bryophyta": {"rank": 2230, "score": 121},
