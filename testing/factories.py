@@ -120,7 +120,7 @@ class BossesFactory(factory.Factory):
     phantom_muspah = MinigameFactory()
     sarachnis = MinigameFactory()
     scorpia = MinigameFactory()
-    scurrius: MinigameFactory()
+    scurrius = MinigameFactory()
     skotizo = MinigameFactory()
     sol_heredit = MinigameFactory()
     spindel = MinigameFactory()
