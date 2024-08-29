@@ -66,6 +66,7 @@ class Clues(BaseModel):
 
 class Bosses(BaseModel):
     alchemical_hydra: Minigame = Minigame()
+    araxxor: Minigame = Minigame()
     artio: Minigame = Minigame()
     barrows_chests: Minigame = Minigame()
     bryophyta: Minigame = Minigame()

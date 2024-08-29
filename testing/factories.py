@@ -85,6 +85,7 @@ class BossesFactory(factory.Factory):
         model = Bosses
 
     alchemical_hydra = MinigameFactory()
+    araxxor = MinigameFactory()
     artio = MinigameFactory()
     barrows_chests = MinigameFactory()
     bryophyta = MinigameFactory()
