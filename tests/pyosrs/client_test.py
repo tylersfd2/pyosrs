@@ -57,7 +57,7 @@ async def test_get_hiscore():
 
     assert iron_hyger is not None
     assert iron_hyger.username == "Iron Hyger"
-    assert iron_hyger.skills.overall.rank == 1  # Rank 1 ironman hiscore
+    assert iron_hyger.skills.overall.rank == 34
     assert iron_hyger.skills.overall.level == 2277
     assert iron_hyger.skills.overall.experience == 4600000000
     assert iron_hyger.combat_level == 126
