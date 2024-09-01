@@ -51,6 +51,7 @@ class Minigames(BaseModel):
     pvp_arena: Minigame = Minigame()
     soul_wars: Minigame = Minigame()
     rifts_closed: Minigame = Minigame()
+    colosseum_glory: Minigame = Minigame()
 
 
 class Clues(BaseModel):
@@ -65,6 +66,7 @@ class Clues(BaseModel):
 
 class Bosses(BaseModel):
     alchemical_hydra: Minigame = Minigame()
+    araxxor: Minigame = Minigame()
     artio: Minigame = Minigame()
     barrows_chests: Minigame = Minigame()
     bryophyta: Minigame = Minigame()
@@ -92,6 +94,7 @@ class Bosses(BaseModel):
     kraken: Minigame = Minigame()
     kree_arra: Minigame = Minigame()
     kril_tsutsaroth: Minigame = Minigame()
+    lunar_chests: Minigame = Minigame()
     mimic: Minigame = Minigame()
     nex: Minigame = Minigame()
     nightmare: Minigame = Minigame()
@@ -102,6 +105,7 @@ class Bosses(BaseModel):
     scorpia: Minigame = Minigame()
     scurrius: Minigame = Minigame()
     skotizo: Minigame = Minigame()
+    sol_heredit: Minigame = Minigame()
     spindel: Minigame = Minigame()
     tempoross: Minigame = Minigame()
     the_gauntlet: Minigame = Minigame()
