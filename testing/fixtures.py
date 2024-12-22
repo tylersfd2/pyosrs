@@ -1,5 +1,6 @@
 IRON_HYGER_BOSSES_FIXTURE = {
     "alchemical_hydra": {"rank": 3035, "score": 2198},
+    "amoxliatl": {"rank": -1, "score": -1},
     "araxxor": {"rank": -1, "score": -1},
     "artio": {"rank": 2524, "score": 871},
     "barrows_chests": {"rank": 1132, "score": 1761},
@@ -42,6 +43,7 @@ IRON_HYGER_BOSSES_FIXTURE = {
     "sol_heredit": {"rank": -1, "score": -1},
     "spindel": {"rank": 3390, "score": 600},
     "tempoross": {"rank": 7021, "score": 424},
+    "the_hueycoatl": {"rank": -1, "score": -1},
     "the_gauntlet": {"rank": 13394, "score": 51},
     "the_corrupted_gauntlet": {"rank": 2230, "score": 1112},
     "the_leviathan": {"rank": 4332, "score": 115},
@@ -63,12 +65,12 @@ IRON_HYGER_BOSSES_FIXTURE = {
 }
 
 IRON_HYGER_MINIGAMES_FIXTURE = {
-    "colosseum_glory": {"rank": 181, "score": 7439},
+    "colosseum_glory": {"rank": 2268, "score": 47246},
     "league_points": {"rank": -1, "score": -1},
     "bounty_hunter_hunter": {"rank": -1, "score": -1},
     "bounty_hunter_rogue": {"rank": -1, "score": -1},
-    "bounty_hunter_hunter_legacy": {"rank": 14220, "score": 5},
-    "bounty_hunter_rogue_legacy": {"rank": 1031, "score": 3},
+    "bounty_hunter_hunter_legacy": {"rank": 175877, "score": 5},
+    "bounty_hunter_rogue_legacy": {"rank": 156444, "score": 3},
     "lms": {"rank": 1765, "score": 3033},
     "pvp_arena": {"rank": 273, "score": 3045},
     "soul_wars": {"rank": 2225, "score": 3813},

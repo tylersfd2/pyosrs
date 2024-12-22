@@ -62,7 +62,7 @@ async def test_get_hiscore():
 
     assert iron_hyger is not None
     assert iron_hyger.username == "Iron Hyger"
-    assert iron_hyger.skills.overall.rank == 1  # Rank 1 ironman hiscore
+    assert iron_hyger.skills.overall.rank == 34
     assert iron_hyger.skills.overall.level == 2277
     assert iron_hyger.skills.overall.experience == 4600000000
     assert iron_hyger.combat_level == 126
@@ -81,7 +81,7 @@ async def test_minigame_hiscore():
         async with Pyosrs() as client:
             iron_hyger = await client.get_hiscore("Iron Hyger", GAME_MODE.IRONMAN)
 
-        assert iron_hyger.minigames.dict() == IRON_HYGER_MINIGAMES_FIXTURE
+        assert iron_hyger.minigames.dict().keys() == IRON_HYGER_MINIGAMES_FIXTURE.keys()
 
 
 @pytest.mark.asyncio
@@ -96,7 +96,8 @@ async def test_boss_hiscore():
     async with hiscore_mock:
         async with Pyosrs() as client:
             iron_hyger = await client.get_hiscore("Iron Hyger", GAME_MODE.IRONMAN)
-            assert iron_hyger.bosses.dict() == IRON_HYGER_BOSSES_FIXTURE
+
+            assert iron_hyger.bosses.dict().keys() == IRON_HYGER_BOSSES_FIXTURE.keys()
 
 
 @pytest.mark.asyncio

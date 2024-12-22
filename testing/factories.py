@@ -126,6 +126,7 @@ class BossesFactory(factory.Factory):
     sol_heredit = MinigameFactory()
     spindel = MinigameFactory()
     tempoross = MinigameFactory()
+    the_hueycoatl = MinigameFactory()
     the_gauntlet = MinigameFactory()
     the_corrupted_gauntlet = MinigameFactory()
     theatre_of_blood = MinigameFactory()

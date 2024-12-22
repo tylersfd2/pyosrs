@@ -66,6 +66,7 @@ class Clues(BaseModel):
 
 class Bosses(BaseModel):
     alchemical_hydra: Minigame = Minigame()
+    amoxliatl: Minigame = Minigame()
     araxxor: Minigame = Minigame()
     artio: Minigame = Minigame()
     barrows_chests: Minigame = Minigame()
@@ -108,6 +109,7 @@ class Bosses(BaseModel):
     sol_heredit: Minigame = Minigame()
     spindel: Minigame = Minigame()
     tempoross: Minigame = Minigame()
+    the_hueycoatl: Minigame = Minigame()
     the_gauntlet: Minigame = Minigame()
     the_corrupted_gauntlet: Minigame = Minigame()
     the_leviathan: Minigame = Minigame()
