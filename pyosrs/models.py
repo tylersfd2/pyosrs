@@ -43,6 +43,7 @@ class Skills(BaseModel):
 
 class Minigames(BaseModel):
     colosseum_glory: Minigame = Minigame()
+    collections_logged: Minigame = Minigame()
     league_points: Minigame = Minigame()
     bounty_hunter_hunter: Minigame = Minigame()
     bounty_hunter_rogue: Minigame = Minigame()
@@ -113,6 +114,7 @@ class Bosses(BaseModel):
     the_gauntlet: Minigame = Minigame()
     the_corrupted_gauntlet: Minigame = Minigame()
     the_leviathan: Minigame = Minigame()
+    the_royal_titans: Minigame = Minigame()
     the_whisperer: Minigame = Minigame()
     theatre_of_blood: Minigame = Minigame()
     theatre_of_blood_hard_mode: Minigame = Minigame()

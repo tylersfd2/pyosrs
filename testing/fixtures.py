@@ -47,6 +47,7 @@ IRON_HYGER_BOSSES_FIXTURE = {
     "the_gauntlet": {"rank": 13394, "score": 51},
     "the_corrupted_gauntlet": {"rank": 2230, "score": 1112},
     "the_leviathan": {"rank": 4332, "score": 115},
+    "the_royal_titans": {"rank": -1, "score": -1},
     "the_whisperer": {"rank": 5081, "score": 43},
     "theatre_of_blood": {"rank": 5808, "score": 251},
     "theatre_of_blood_hard_mode": {"rank": 2947, "score": 13},
@@ -66,6 +67,7 @@ IRON_HYGER_BOSSES_FIXTURE = {
 
 IRON_HYGER_MINIGAMES_FIXTURE = {
     "colosseum_glory": {"rank": 2268, "score": 47246},
+    "collections_logged": {"rank": -1, "score": -1},
     "league_points": {"rank": -1, "score": -1},
     "bounty_hunter_hunter": {"rank": -1, "score": -1},
     "bounty_hunter_rogue": {"rank": -1, "score": -1},
