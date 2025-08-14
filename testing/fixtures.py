@@ -19,6 +19,7 @@ IRON_HYGER_BOSSES_FIXTURE = {
     "dagannoth_rex": {"rank": 64, "score": 3483},
     "dagannoth_supreme": {"rank": 35, "score": 4266},
     "deranged_archaeologist": {"rank": 5972, "score": 50},
+    "doom_of_mokhaiotl": {"rank": 5972, "score": 50},
     "duke_sucellus": {"rank": 4806, "score": 372},
     "general_graardor": {"rank": 14988, "score": 557},
     "giant_mole": {"rank": 835, "score": 3010},
@@ -61,6 +62,7 @@ IRON_HYGER_BOSSES_FIXTURE = {
     "vet_ion": {"rank": 1303, "score": 699},
     "vorkath": {"rank": 6, "score": 27740},
     "wintertodt": {"rank": 68, "score": 8069},
+    "yama": {"rank": -1, "score": -1},
     "zalcano": {"rank": 203, "score": 1632},
     "zulrah": {"rank": 108, "score": 6465},
 }

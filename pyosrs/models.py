@@ -86,6 +86,7 @@ class Bosses(BaseModel):
     dagannoth_rex: Minigame = Minigame()
     dagannoth_supreme: Minigame = Minigame()
     deranged_archaeologist: Minigame = Minigame()
+    doom_of_mokhaiotl: Minigame = Minigame()
     duke_sucellus: Minigame = Minigame()
     general_graardor: Minigame = Minigame()
     giant_mole: Minigame = Minigame()
@@ -128,6 +129,7 @@ class Bosses(BaseModel):
     vet_ion: Minigame = Minigame()
     vorkath: Minigame = Minigame()
     wintertodt: Minigame = Minigame()
+    yama: Minigame = Minigame()
     zalcano: Minigame = Minigame()
     zulrah: Minigame = Minigame()
 
